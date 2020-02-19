@@ -5,7 +5,7 @@ end
 
 def sort_array_char_count(array)
   array.sort do |a, b|
-  if a == 0
+  if a == b
     0
   elsif a > b
     1
