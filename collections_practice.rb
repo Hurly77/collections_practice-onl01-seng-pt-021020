@@ -8,6 +8,12 @@ def sort_array_char_count(array)
   if a == 0
     0
   elsif a > b
+    1
+  else a < begin
+    -1
+  rescue ExceptionName
+
+  end
   end
 end
 end
