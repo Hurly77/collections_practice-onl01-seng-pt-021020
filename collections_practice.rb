@@ -1,5 +1,8 @@
 def sort_array_asc(array)
+array.sort do |a|
+  if a <=> b
 
+  end
 end
 
 def sort_array_char_count(array)
@@ -19,13 +22,13 @@ def kesha_maker(array)
 end
 
 def find_a
-  
+
 end
 
 def sum_array(array)
-  
+
 end
 
 def add_s(arrray)
-  
+
 end
