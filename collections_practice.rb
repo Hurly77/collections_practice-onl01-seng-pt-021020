@@ -1,6 +1,6 @@
 def sort_array_asc(array)
-array.sort do |a|
-  if a <=> b
+array.sort do |a, b|
+  if a
 
   end
 end
