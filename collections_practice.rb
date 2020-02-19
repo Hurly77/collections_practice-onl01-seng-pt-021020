@@ -11,9 +11,6 @@ def sort_array_char_count(array)
     1
   else a < begin
     -1
-  rescue ExceptionName
-
-  end
   end
 end
 end
