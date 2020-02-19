@@ -5,7 +5,11 @@ end
 
 def sort_array_char_count(array)
   array.sort do |a, b|
-
+  if a == 0
+    0
+  elsif a > b
+  end
+end
 end
 
 def swap_elements(array)
