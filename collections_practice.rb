@@ -25,7 +25,7 @@ end
 
 def kesha_maker(array)
   i = 3
-  array.each_with_index[3] do |char| empty << array
+  while i < array.length yield(array[i])
 
 end
 
