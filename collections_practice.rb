@@ -34,7 +34,6 @@ def find_a(array)
   array.find_all do |item|
     item[0] == 1
     end
-  end
 end
 
 def sum_array(array)
