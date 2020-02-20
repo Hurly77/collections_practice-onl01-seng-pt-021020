@@ -24,6 +24,7 @@ array.reverse
 end
 
 def kesha_maker(array)
+  empty = []
   array.each_with_index[3] do |char|
 
 end
