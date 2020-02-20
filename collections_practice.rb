@@ -34,7 +34,6 @@ def find_a(array)
   array.find do |a| a < 2
     end
 end
-end
 
 def sum_array(array)
 
