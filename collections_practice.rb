@@ -29,6 +29,7 @@ def kesha_maker(array)
   while i < array.length empty << yield(array[i])
 
 end
+end
 
 def find_a
 
