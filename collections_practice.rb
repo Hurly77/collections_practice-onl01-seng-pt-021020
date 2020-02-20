@@ -32,7 +32,7 @@ end
 def find_a(array)
   empty = []
   array.find_all do |item|
-    item[0] == 1
+    item[0] == "a"
     end
 end
 
