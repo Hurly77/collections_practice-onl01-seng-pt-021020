@@ -26,7 +26,8 @@ end
 def kesha_maker(array)
   i = 3
   empty = []
-  while i < array.length empty << yield(array[i])
+  while i < array.length
+    empty << yield(array[i])
 
 end
 end
