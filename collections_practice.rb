@@ -24,10 +24,8 @@ array.reverse
 end
 
 def kesha_maker(array)
-  i = 3
-  empty = []
-  while i < array.length
-    empty << array($)
+  array.each do |item|
+    item[3] = "$"
 
 end
 end
