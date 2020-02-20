@@ -34,7 +34,7 @@ def find_a(array)
   array.find do |a|
     if a < 2
       empty << a
-    else 
+    else
       false
 end
 end
