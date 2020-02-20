@@ -11,7 +11,6 @@ end
 
 def sort_array_char_count(array)
   array.sort_by do |a| a.length
-  a <=> b
 end
 end
 
