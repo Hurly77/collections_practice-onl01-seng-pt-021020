@@ -30,9 +30,10 @@ end
 end
 
 def find_a(array)
+  empty = []
   array.find do |a|
     if a < 2
-      false
+
 
 end
 
