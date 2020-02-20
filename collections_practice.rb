@@ -34,7 +34,7 @@ def find_a(array)
   array.find do |item|
     if item[1] < 2
       array
-    else 
+    else
       item[1] >= 2
     end
 end
