@@ -34,6 +34,7 @@ def find_a(array)
   array.each.find do |item|
     if item[1] < 2
     end
+  end
 end
 
 def sum_array(array)
