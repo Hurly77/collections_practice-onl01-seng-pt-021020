@@ -24,6 +24,7 @@ array.reverse
 end
 
 def kesha_maker(array)
+  array.each_with_index[3]
 
 end
 
