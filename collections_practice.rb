@@ -31,11 +31,7 @@ end
 
 def find_a(array)
   empty = []
-  array.find do |item|
-    if item[1] < 2
-      array
-    else
-      item[1] >= 2
+  array.find do |a| a < 2
     end
 end
 end
