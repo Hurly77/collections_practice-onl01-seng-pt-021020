@@ -33,6 +33,7 @@ def find_a(array)
   empty = []
   array.find do |item|
     if item[1] < 2
+      array
     else
     end
 end
